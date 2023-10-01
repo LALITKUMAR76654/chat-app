@@ -46,6 +46,7 @@
     "arrow-body-style": [0],
     "prefer-arrow-callback": [0],
     "react/function-component-definition": "off",
-    "react/jsx-no-constructed-context-values": "off"
+    "react/jsx-no-constructed-context-values": "off",
+    "no-unused-vars": "warn"
   }
 }
