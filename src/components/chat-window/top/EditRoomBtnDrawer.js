@@ -16,7 +16,7 @@ const EditRoomBtnDrawer = () => {
 
   const updateData = (key, value) => {
     database
-      .ref(`rooms${chatId}`)
+      .ref(`rooms/${chatId}`)
       .child(key)
       .set(value)
       .then(() => {
